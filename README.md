@@ -6,7 +6,7 @@ Official PyTorch implementation of
 
 **AEROMamba: An efficient architecture for audio super-resolution using generative adversarial networks and state space models**
 
-whose demo is available in our [Webpage](https://aeromamba-paqm.github.io/).  Our model is closely related to our previous model [AEROMamba](https://github.com/aeromamba-super-resolution/aeromamba), so make sure to check it out.
+whose demo is available in our [Webpage](https://aeromamba-super-resolution.github.io/).  Our model is closely related to [AERO](https://github.com/slp-rl/aero) and [Mamba](https://github.com/state-spaces/mamba), so make sure to check them out if any questions arise regarding these modules.
 
 ## Installation
 
@@ -114,5 +114,13 @@ For each low to high resolution setting, hydra creates a folder under `outputs/<
 
 Make sure that `restart: false` in `conf/main_config.yaml`
 
+### Citation
 
+@inproceedings{Abreu2024lamir,
+        author    = {Wallace Abreu and Luiz Wagner Pereira Biscainho},
+        title     = {AEROMamba: An Efficient Architecture for Audio Super-Resolution Using Generative Adversarial Networks and State Space Models},
+        booktitle = {Proceedings of the 1st Latin American Music Information Retrieval Workshop},
+        year      = {2024},
+        address   = {Rio de Janeiro, Brazil},
+      }
       
